@@ -1,0 +1,17 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction
+                            ,lightning:isUrlAddressable" access="global">
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    
+    <lightning:card title="Hello">
+        <p><lightning:formattedText value="Email salesforce.com and info.salesforce.com" /></p>
+        <p><lightning:formattedText value="Email info@salesforce.com" /></p>
+        <p><lightning:formattedText linkify="true" value="Email salesforce.com and info.salesforce.com" /></p>
+        <p><lightning:formattedText linkify="true" value="Email info@salesforce.com" /></p>
+        
+    </lightning:card>
+    
+    
+    
+</aura:component>
