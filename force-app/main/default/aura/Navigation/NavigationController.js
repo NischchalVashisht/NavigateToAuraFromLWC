@@ -1,5 +1,5 @@
 ({
-    myAction : function(component, event, helper) {
-
-    }
+	doInit: function(cmp) {
+		alert('test');
+	}
 })
